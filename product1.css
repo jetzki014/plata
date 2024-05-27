@@ -1,0 +1,122 @@
+body{
+  color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: cadetblue;
+
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    position: sticky;
+    color: black;
+
+}
+.navi{
+  width: 100%;
+  height: 100px;
+  padding-top: 5px;
+ background-color: darkgray  ;
+ 
+}
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home::before {
+    margin-left: auto;
+  }
+  
+  .home::after, .home::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0c36f3;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .home:hover::after, .home:hover::before {
+    width: 100%;
+  }
+  .one{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+    float: left;
+    color: white;
+  }
+  .two{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+    float: left;
+    color: white;
+  }
+  .three{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+    float: left;
+    color: white;
+  }
+  .four{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+   float: left;
+   color: white;
+  }
+  .five{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+    float: left;
+    color: white;
+  }
+  .six{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+   float: left;
+   color: white;
+  }
+  .seven{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+   float: left;
+    color: white;
+  }
+  .eight{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+   float: left;
+    color: white;
+  }
+  .nine{
+    height: 350px;
+    width: 390px;
+    border: 3px rgb(36, 21, 247) solid;
+   float: left;
+   color: white;
+  }
+ .pic{
+   place-items: center;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+ }
+  
+  
